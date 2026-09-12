@@ -1,0 +1,19 @@
+# working files, not part of the site
+notes/*
+!notes/FACTS.md
+!notes/check.py
+
+# alternative skins that were tried and not used. They still work locally:
+# swap the theme link in index.html to try one.
+assets/theme-ledger.css
+assets/theme-quiet.css
+assets/fonts-ledger.css
+assets/fonts-quiet.css
+assets/fonts-ledger/
+assets/fonts-quiet/
+
+# os and editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/

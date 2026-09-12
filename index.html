@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stayers</title>
+<meta name="description" content="In 2023 0xbeans built Bear Bonds. In 2026 the same rule is on the whole system, in The Standard Reserve. An unofficial explainer with a tool you can click.">
+<meta property="og:title" content="Leave early. Stayers get paid.">
+<meta property="og:description" content="Bear Bonds in 2023, The Standard Reserve in 2026. The same rule about leaving, now on a whole system. Unofficial explainer.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="assets/og.png">
+<meta name="twitter:image" content="assets/og.png">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/theme-broadsheet.css">
+<link rel="stylesheet" href="assets/sections.css">
+<link rel="stylesheet" href="assets/newsprint.css">
+</head>
+<body>
+<div class="newsprint" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="bar">
+  <div class="wrap barin">
+    <div class="brand"><span class="name">Stayers</span></div>
+    <nav class="nav mono" aria-label="Sections">
+      <a href="#timeline">Timeline</a>
+      <a href="#builder">Builder</a>
+      <a href="#compare">Compare</a>
+      <a href="#tool">Tool</a>
+      <a href="#mechanics">Mechanics</a>
+    </nav>
+    <div class="launch mono">Launch: Sept 14</div>
+  </div>
+</header>
+
+<main>
+
+<section class="wrap hero">
+  <div class="hgrid">
+    <div>
+      <div class="lab">An unofficial explainer &nbsp;&middot;&nbsp; Bear Bonds 2023 &nbsp;&middot;&nbsp; The Standard Reserve 2026</div>
+      <h1>Leave early.<br>Stayers get paid.</h1>
+      <p>In 2023 0xbeans built Bear Bonds. Break the bond and you get your ETH back. The yield goes to whoever is still in.</p>
+      <p>In 2026 the same rule is on the whole system. You can always cash out. The more people cash out at once, the more you pay the ones who don&rsquo;t.</p>
+      <p class="dim">Empty numbers in the paper stay empty.</p>
+      <div class="btns">
+        <a class="btn" href="#tool">Open the tool</a>
+        <a class="btn ghost" href="#timeline">See the timeline</a>
+      </div>
+
+      <figure class="plate">
+        <svg class="plate-art" viewBox="0 0 560 150" role="img" aria-label="An engraved bank facade">
+          <g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="square">
+            <path d="M40 143 H520" stroke-width="1.6"/>
+            <path d="M68 143 h424 v-5 H76 v-5 H84 v-5 H92 v-6 h376 v6 h8 v5 h8 v5 h8 v5"/>
+            <path d="M266 78 h28 v44 h-28 z"/>
+            <path d="M272 84 h16 v38" stroke-width="0.8" opacity="0.55"/>
+            <g id="cols">
+              <path d="M111 62 h26 v56 h-26 z M108 58 h32 v4 h-32 z M108 118 h32 v4 h-32 z"/>
+              <path d="M163 62 h26 v56 h-26 z M160 58 h32 v4 h-32 z M160 118 h32 v4 h-32 z"/>
+              <path d="M215 62 h26 v56 h-26 z M212 58 h32 v4 h-32 z M212 118 h32 v4 h-32 z"/>
+              <path d="M267 62 h26 v56 h-26 z M264 58 h32 v4 h-32 z M264 118 h32 v4 h-32 z"/>
+              <path d="M319 62 h26 v56 h-26 z M316 58 h32 v4 h-32 z M316 118 h32 v4 h-32 z"/>
+              <path d="M371 62 h26 v56 h-26 z M368 58 h32 v4 h-32 z M368 118 h32 v4 h-32 z"/>
+              <path d="M423 62 h26 v56 h-26 z M420 58 h32 v4 h-32 z M420 118 h32 v4 h-32 z"/>
+            </g>
+            <g stroke-width="0.7" opacity="0.5">
+              <path d="M119 64 v52 M129 64 v52 M171 64 v52 M181 64 v52 M223 64 v52 M233 64 v52
+                       M275 64 v52 M285 64 v52 M327 64 v52 M337 64 v52 M379 64 v52 M389 64 v52
+                       M431 64 v52 M441 64 v52"/>
+            </g>
+            <path d="M88 52 h384 v10 H88 z"/>
+            <path d="M80 44 h400 v8 H80 z"/>
+            <path d="M86 44 L280 10 L474 44"/>
+            <path d="M104 41 L280 20 L456 41" stroke-width="0.9" opacity="0.7"/>
+            <g stroke-width="0.7" opacity="0.42">
+              <path d="M150 38 L280 15 M190 38 L280 22 M230 38 L280 29
+                       M410 38 L280 15 M370 38 L280 22 M330 38 L280 29"/>
+            </g>
+            <circle cx="280" cy="34" r="5" stroke-width="0.9"/>
+          </g>
+        </svg>
+        <figcaption>
+          <div class="plate-name">Stayers</div>
+          <div class="plate-sub">The rule that pays the people who stay, explained in plain words, with a tool you can click.</div>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="card">
+      <div class="blk">
+        <div class="k">2023 BOND</div>
+        <p>Break it: you get your ETH back</p>
+        <p>The yield goes to people still in</p>
+        <p class="cardnote">One bond, one deposit, a hackathon build.</p>
+      </div>
+      <div class="rule"></div>
+      <div class="blk">
+        <div class="k">2026 CHARTER</div>
+        <p>You can always cash out</p>
+        <p>If a lot of people cash out at once, you pay more to the people who stay</p>
+        <p class="cardnote">A license, a token, and a printer that reads one market.</p>
+      </div>
+      <div class="rule"></div>
+      <div class="blk">
+        <div class="k">LIVE RIGHT NOW</div>
+        <p>Nothing. No token, no NFT, no contract address.</p>
+        <p class="cardnote">The protocol says it launches on September 14.</p>
+      </div>
+      <div class="thesis">2023 keeps your deposit safe. 2026 tries to keep the token safer when people leave.</div>
+      <div class="stats">
+        <div><b>50 / 50</b><span>of every exit fee: half burned, half paid to the people who stayed</span></div>
+        <div><b>1 to 10</b><span>branches per charter, and every extra one burns $STANDARD</span></div>
+        <div><b>1,000</b><span>founding charters at genesis, one per wallet</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap sec" id="timeline">
+  <h2>How the idea changed</h2>
+  <p class="dek">Four years, one mechanism.</p>
+  <div class="tl">
+    <div class="tlb">
+      <div class="tly">2022</div>
+      <div class="tlt">Liquity Chicken Bonds</div>
+      <p>You deposit LUSD. If you leave early, you get the whole deposit back and give up the balance you had accrued. They call it chickening out.</p>
+      <a class="src" href="https://docs.chickenbonds.org/faq/basic-usage" target="_blank" rel="noopener">(LUSD Chicken Bonds docs, live October 2022)</a>
+    </div>
+    <div class="tlb">
+      <div class="tly">2023</div>
+      <div class="tlt">Bear Bonds</div>
+      <p>You deposit ETH. It becomes stETH. If you leave early, you get the ETH back. The yield goes to open bonds.</p>
+      <div class="meta">Built in about 8 hours by 0xbeans and friends at ETHOnline 2023. Three sponsor prizes and a finalist spot. He said that if enough people liked it, he would clean up the code and deploy it on mainnet.</div>
+      <a class="src" href="https://ethglobal.com/showcase/bear-bonds-2pjsd" target="_blank" rel="noopener">(ETHGlobal showcase)</a>
+      <a class="src" href="https://x.com/0xbeans/status/1721602742710317431" target="_blank" rel="noopener">(his thread, Nov 2023)</a>
+    </div>
+    <div class="tlb">
+      <div class="tly">THEN</div>
+      <div class="tlt">The printer problem</div>
+      <p>If a token keeps printing after people sell, the people who stay get diluted. That makes more people sell.</p>
+    </div>
+    <div class="tlb">
+      <div class="tly">2026</div>
+      <div class="tlt">Standard Reserve</div>
+      <p>One ETH pool. If more ETH comes in, issuance can rise. If ETH leaves, issuance drops and the system buys tokens back. A charter is a license. Each branch gets a share of new tokens. Cash out a branch to take tokens. Cash out the last branch and the charter burns.</p>
+      <a class="src" href="https://www.standardreserve.xyz/whitepaper/" target="_blank" rel="noopener">(whitepaper v0.1)</a>
+    </div>
+  </div>
+  <blockquote class="quote">
+    <p>one of my favorite mechanisms is making exits reward the people who believe</p>
+    <p>back in 2023 i won an ETHGlobal hackathon with bear bonds, a system that redirected value from sellers to holders</p>
+    <p>we took that idea, rebuilt it from the ground up, and supercharged it</p>
+    <a class="src" href="https://x.com/0xbeans/status/2091515072753664340" target="_blank" rel="noopener">(0xbeans on X, 23 Aug 2026)</a>
+  </blockquote>
+</section>
+
+<section class="wrap sec" id="builder">
+  <h2>Who built it</h2>
+  <p class="dek">The same idea, rebuilt bigger every time, since 2022.</p>
+  <div class="who">
+    <div>
+      <div class="who-id">
+        <span class="tlt" style="margin:0">0xbeans</span>
+        <a class="handle" href="https://x.com/0xbeans" target="_blank" rel="noopener">@0xbeans</a>
+      </div>
+      <p class="who-bio">His bio is three words and then a list of jobs: <span class="q">sometimes a dev. prev coinbase, cofounder frame (acquired), head of protocol abstract.</span> He is the developer behind The Standard Reserve.</p>
+      <p class="who-bio">In 2022, asked why he put a project&rsquo;s artists on the core team instead of paying them a flat fee, he said he wanted to give them more skin in the game. Same instinct, four years earlier: pay the people who stay.</p>
+      <a class="src" href="https://x.com/0xbeans" target="_blank" rel="noopener">(his X bio)</a>
+      <a class="src" href="https://x.com/0xbeans/status/2091515072753664340" target="_blank" rel="noopener">(his post on Standard Reserve, 23 Aug 2026)</a>
+      <a class="src" href="https://blitmap.mirror.xyz/VPnGqP78JJZvpqtpTwepK6_NTf8gbkUUjS4JYt9WSiQ" target="_blank" rel="noopener">(the Blitmap interview, 2022)</a>
+    </div>
+    <ul class="who-list">
+      <li><span class="who-yr">2022</span><span class="who-what"><b>DRIP20.</b> A token that streams rewards straight to holders, with no staking and no gas on the holder&rsquo;s end. His most starred piece of open source. Mirakai shipped it as $ORBS. <a class="src" href="https://github.com/0xBeans/DRIP20" target="_blank" rel="noopener">(GitHub)</a></span></li>
+      <li><span class="who-yr">2023</span><span class="who-what"><b>Bear Bonds.</b> Break the bond early and your yield goes to everyone still in. Three sponsor prizes and an ETHOnline finalist. <a class="src" href="https://ethglobal.com/showcase/bear-bonds-2pjsd" target="_blank" rel="noopener">(ETHGlobal)</a></span></li>
+      <li><span class="who-yr">2024</span><span class="who-what"><b>Frame.</b> An Ethereum rollup for creators, which he co-founded. Igloo, the company behind Pudgy Penguins, acquired the team in June 2024. <a class="src" href="https://www.prnewswire.com/news-releases/igloo-inc-acquires-the-frame-team-and-announces-plans-to-contribute-towards-consumer-focused-blockchain-302186105.html" target="_blank" rel="noopener">(press release, 28 June 2024)</a></span></li>
+      <li><span class="who-yr">2025</span><span class="who-what"><b>Abstract.</b> His own bio lists him as head of protocol. <a class="src" href="https://x.com/0xbeans" target="_blank" rel="noopener">(his bio)</a></span></li>
+      <li><span class="who-yr">2026</span><span class="who-what"><b>The Standard Reserve.</b> The same exit rule, applied to a whole monetary system. <a class="src" href="https://x.com/0xbeans/status/2091515072753664340" target="_blank" rel="noopener">(his post, Aug 2026)</a></span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="wrap sec" id="compare">
+  <h2>What changed</h2>
+  <p class="dek">Same rule about leaving. Different thing at risk.</p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Thing</th><th>2023 bond</th><th>2026 charter</th></tr></thead>
+      <tbody>
+        <tr><td>What it is</td><td data-l="2023 bond">One ETH bond</td><td data-l="2026 charter">A license plus a token</td></tr>
+        <tr><td>If you leave</td><td data-l="2023 bond">You get your ETH back</td><td data-l="2026 charter">You get tokens minus a fee</td></tr>
+        <tr><td>What you lose</td><td data-l="2023 bond">Your yield, and you are marked with a soulbound token</td><td data-l="2026 charter">The fee, plus that branch&rsquo;s future tokens</td></tr>
+        <tr><td>Who gets it</td><td data-l="2023 bond">People still in the bond</td><td data-l="2026 charter">50% burned, 50% to people who did not leave</td></tr>
+        <tr><td>When it ends</td><td data-l="2023 bond">You break the bond or ETH hits its all time high</td><td data-l="2026 charter">Last branch burns the charter</td></tr>
+        <tr><td>If you disappear</td><td data-l="2023 bond">Nothing. A bond could sit open forever</td><td data-l="2026 charter">30 days quiet, someone can report you, 70% penalty</td></tr>
+        <tr><td>How new tokens work</td><td data-l="2023 bond">No printer. Only stETH yield</td><td data-l="2026 charter">Printer follows ETH in vs ETH out</td></tr>
+        <tr><td>Cost to grow</td><td data-l="2023 bond">None</td><td data-l="2026 charter">Pay $STANDARD to add a branch. That payment is burned</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="wrap sec" id="tool">
+  <h2>Try both versions</h2>
+  <p class="dek">These sliders are a model. Missing paper numbers stay marked not published.</p>
+
+  <div class="toolbar">
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" data-tab="2023" aria-selected="false">2023 bond</button>
+      <button class="tab on" role="tab" data-tab="2026" aria-selected="true">2026 charter</button>
+    </div>
+    <div class="presets">
+      <span class="plab mono">PRESETS</span>
+      <button class="pset" data-preset="e23">2023 early exit</button>
+      <button class="pset" data-preset="h23">2023 hold</button>
+      <button class="pset" data-preset="a26">2026 add a branch</button>
+      <button class="pset" data-preset="c26">2026 crowded cash out</button>
+    </div>
+  </div>
+
+  <!-- 2026 -->
+  <div class="tool" id="panel26">
+    <div class="ctrl">
+      <div class="field">
+        <div class="flab"><label for="b">Your branches</label><span class="fval" id="bv">3</span></div>
+        <input type="range" id="b" min="1" max="10" step="1" value="3">
+      </div>
+      <div class="field">
+        <div class="flab"><label for="all">All branches in the model</label><span class="fval" id="allv">1,000</span></div>
+        <input type="range" id="all" min="100" max="10000" step="100" value="1000">
+        <div class="note">example. Live system is not out yet</div>
+      </div>
+      <div class="field">
+        <div class="flab"><span>ETH flow</span></div>
+        <div class="seg" id="flow" role="group">
+          <button data-v="in">In</button><button data-v="flat">Flat</button><button class="on" data-v="out">Out</button>
+        </div>
+      </div>
+      <div class="field">
+        <div class="flab"><span>Last 7 days of exits</span></div>
+        <div class="seg" id="exits" role="group">
+          <button data-v="low">Low</button><button data-v="medium">Medium</button><button data-v="high">High</button><button class="on" data-v="crowded">Crowded</button>
+        </div>
+      </div>
+      <div class="field">
+        <div class="flab"><label for="bal">Example branch balance</label><span class="fval" id="balv">10,000 $STANDARD</span></div>
+        <input type="range" id="bal" min="1000" max="100000" step="1000" value="10000">
+        <div class="note">example, not from the project</div>
+      </div>
+      <div class="field">
+        <div class="flab"><label for="fee">Example cash-out fee</label><span class="fval" id="feev">22%</span></div>
+        <input type="range" id="fee" min="1" max="40" step="1" value="22">
+        <div class="note">example fee, not from the project. The paper did not publish the exact curve.</div>
+      </div>
+      <div class="acts" id="acts26">
+        <button class="act" data-a="stay">Stay</button>
+        <button class="act" data-a="add">Add a branch</button>
+        <button class="act on" data-a="cash1">Cash out 1 branch</button>
+        <button class="act" data-a="cashall">Cash out everything</button>
+      </div>
+    </div>
+    <div class="res">
+      <div class="rhead"><div class="rtitle" id="t26">Cash out 1 branch</div><div class="chip" id="chip26">EXITS: CROWDED</div></div>
+      <div class="nums" id="n26"></div>
+      <div class="bar2" id="bar26"></div>
+      <div class="rlines" id="l26"></div>
+      <div class="np">
+        <div class="npi">base issuance: not published</div>
+        <div class="npi">epoch length: not published</div>
+        <div class="npi">fee floor and ceiling: not published</div>
+        <div class="npi">auction floor: not published</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2023 -->
+  <div class="tool" id="panel23" hidden>
+    <div class="ctrl">
+      <div class="field">
+        <div class="flab"><label for="eth">ETH deposited</label><span class="fval" id="ethv">10</span></div>
+        <input type="range" id="eth" min="1" max="100" step="1" value="10">
+        <div class="note">example size</div>
+      </div>
+      <div class="field">
+        <div class="flab"><label for="days">Days held</label><span class="fval" id="daysv">90</span></div>
+        <input type="range" id="days" min="1" max="365" step="1" value="90">
+      </div>
+      <div class="field">
+        <div class="flab"><label for="apy">Yearly stETH yield</label><span class="fval" id="apyv">4.0%</span></div>
+        <input type="range" id="apy" min="2" max="6" step="0.1" value="4">
+        <div class="note">example range, not from the project</div>
+      </div>
+      <div class="field">
+        <div class="flab"><label for="bonds">Other open bonds</label><span class="fval" id="bondsv">12</span></div>
+        <input type="range" id="bonds" min="1" max="50" step="1" value="12">
+      </div>
+      <div class="acts two" id="acts23">
+        <button class="act" data-a="stay">Stay</button>
+        <button class="act on" data-a="cashout">Cash out</button>
+      </div>
+    </div>
+    <div class="res">
+      <div class="rhead"><div class="rtitle" id="t23">Cash out</div><div class="chip alt" id="chip23">2023 BOND</div></div>
+      <div class="nums" id="n23"></div>
+      <div class="bar2" id="bar23"></div>
+      <div class="rlines" id="l23"></div>
+      <div class="np">
+        <div class="npi">a hackathon build from ETHOnline 2023</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap sec" id="mechanics">
+  <h2>The mechanics, as the paper prints them</h2>
+  <p class="dek">Transcribed from <a class="dl" href="https://www.standardreserve.xyz/whitepaper/" target="_blank" rel="noopener">whitepaper v0.1</a>, symbol by symbol. Where the paper blacks a value out, this page blacks it out too, at the same width. <b>From the paper</b> means the formula is printed there with its numbers. <b>Shape only</b> means the structure is printed but the values inside it are not. <b>Blacked out</b> means nothing survives. Nothing here is reconstructed or guessed.</p>
+  <div class="fx">
+
+    <div class="fxrow">
+      <div class="fxname">The signal</div>
+      <div class="fxbody">
+        <div class="fxeq">signal(n) = F(n&minus;1) + F(n&minus;2)</div>
+        <div class="fxeq">F(n) = <span class="red" style="--w:6"></span> &minus; <span class="red" style="--w:6"></span></div>
+        <div class="fxnote">The signal is printed exactly as you see it. F(n) is the net ETH flow for one epoch, everything that came in on buys minus everything that left on sells, and both halves of it are blacked out. Issuance reads the last two completed epochs, so one loud hour cannot swing it.</div>
+      </div>
+      <div class="fxtag">shape only</div>
+    </div>
+
+    <div class="fxrow">
+      <div class="fxname">The two regimes</div>
+      <div class="fxbody">
+        <div class="fxeq">F(n) &gt; 0 &rarr; expansion &nbsp;&nbsp; F(n) &le; 0 &rarr; contraction</div>
+        <div class="fxnote">Two levers, two clocks. Where the fees go is decided by the epoch happening now, F(n), so defence reacts fast. How much is issued moves on the slower signal above. Note where zero sits: flat is not neutral, it counts as contraction. The paper puts the asymmetry plainly: cuts are immediate, raises must be earned. Stated in prose, not typeset as a formula.</div>
+      </div>
+      <div class="fxtag open">from the paper</div>
+    </div>
+
+    <div class="fxrow">
+      <div class="fxname">Issuance</div>
+      <div class="fxbody">
+        <div class="fxeq">I(n) = <span class="red" style="--w:7"></span> &times; d &times; m(n)</div>
+        <div class="fxnote">d is the epoch length in days and m is the policy multiplier. Only the base rate is blacked out, so the structure is the paper's, not ours.</div>
+      </div>
+      <div class="fxtag">shape only</div>
+    </div>
+
+    <div class="fxrow">
+      <div class="fxname">The policy rule</div>
+      <div class="fxbody">
+        <div class="fxeq">m(n+1) = <span class="red" style="--w:30"></span></div>
+        <div class="fxnote">This is the biggest redaction in the document, and it is the rule that decides whether issuance speeds up or slows down. Nothing of it is public except its name and that it runs every epoch. We do not guess at it.</div>
+      </div>
+      <div class="fxtag shut">blacked out</div>
+    </div>
+
+    <div class="fxrow">
+      <div class="fxname">What one branch earns</div>
+      <div class="fxbody">
+        <div class="fxeq">one branch per day = <span class="red" style="--w:7"></span> &times; m / N</div>
+        <div class="fxnote">This is the paper's own formula for a single branch's daily yield, where N is every branch in the system. So your share is simply your branches over N. Issuance streams second by second, and a new branch earns from the moment it opens. One to ten branches per charter, and every new one costs $STANDARD that is burned.</div>
+      </div>
+      <div class="fxtag">shape only</div>
+    </div>
+
+    <div class="fxrow">
+      <div class="fxname">Exit pressure</div>
+      <div class="fxbody">
+        <div class="fxeq">P = W / max(D + W, <span class="red" style="--w:5"></span>)</div>
+        <div class="fxeq">fee = <span class="red" style="--w:16"></span></div>
+        <div class="fxnote">W is everything withdrawn across the system in the last 7 days, D is everything still held. So the fee reads how much left, not how many wallets left. The pressure formula is printed; the fee built on top of it is one long bar. The paper does say its shape: a quadratic from a blacked out floor to a blacked out ceiling, half of it burned, half paid to the people who stayed.</div>
+      </div>
+      <div class="fxtag">shape only</div>
+    </div>
+
+    <div class="fxrow">
+      <div class="fxname">Buyback limit</div>
+      <div class="fxbody">
+        <div class="fxeq">spend per tick = min(0.10 &times; V, 0.002 &times; R)</div>
+        <div class="fxnote">The only formula in the paper that still has live numbers in it. In contraction the vault buys $STANDARD and burns it, once an hour, where V is the vault balance and R is the pool reserves. That caps buying near 5% of pool depth a day at launch settings, so the defence cannot be baited into one blockable shot. Unspent balance rolls forward and the vault can never sell.</div>
+      </div>
+      <div class="fxtag open">from the paper</div>
+    </div>
+
+    <div class="fxrow">
+      <div class="fxname">License price</div>
+      <div class="fxbody">
+        <div class="fxeq">P(t) = P<sub>start</sub> &times; (P<sub>floor</sub> / P<sub>start</sub>)<sup>t / 24h</sup></div>
+        <div class="fxeq">P<sub>start</sub> = <span class="red" style="--w:7"></span> &nbsp;&nbsp; P<sub>floor</sub> = <span class="red" style="--w:12"></span></div>
+        <div class="fxnote">A daily auction whose price falls all the way across 24 hours. The curve is printed, both ends of it are not, so you can see the shape of the fall without knowing where it starts or where it stops.</div>
+      </div>
+      <div class="fxtag">shape only</div>
+    </div>
+
+    <div class="fxrow">
+      <div class="fxname">Supply</div>
+      <div class="fxbody">
+        <div class="fxeq">S(t) = 100,000,000 + M(t) &minus; B(t)</div>
+        <div class="fxeq">S<sub>max</sub>(t) = 1,000,000,000 &minus; B(t)</div>
+        <div class="fxnote">Both printed with their numbers intact. Genesis liquidity, plus everything ever minted when a banker withdrew, minus everything ever burned. Burned tokens do not come back, so the ceiling can only fall.</div>
+      </div>
+      <div class="fxtag open">from the paper</div>
+    </div>
+
+    <div class="fxrow">
+      <div class="fxname">Going silent</div>
+      <div class="fxbody">
+        <div class="fxeq">bounty = min(0.02 &times; balance, 100,000)</div>
+        <div class="fxeq">revocation = 0.70 &times; balance &nbsp;&nbsp; returned = 0.30 &times; balance</div>
+        <div class="fxnote">The paper states these as numbered steps rather than as a formula; the arithmetic here is just its own numbers written out. After 30 days of silence anyone can report the wallet. Half the revocation burns, half pays the bankers still working. It also bounds one hidden number on purpose: it calls this 70% deliberately worse than the worst case exit fee, so the exit ceiling sits below 70% without ever being printed.</div>
+      </div>
+      <div class="fxtag open">from the paper</div>
+    </div>
+
+  </div>
+  <div class="redkey"><span class="red"></span> a value the paper holds back until launch. In whitepaper v0.1, all fifteen rows of its summary table are still one of these.</div>
+</section>
+
+<section class="wrap sec" id="silent">
+  <div class="silent">
+    <div>
+      <h2 class="h3">If you go silent</h2>
+      <p class="dek nomb">This rule did not exist in Bear Bonds. In 2023 a bond could sit open forever.</p>
+    </div>
+    <div class="slist">
+      <p><b>30 DAYS</b><span>with no action on your charter</span></p>
+      <p><b>REPORT</b><span>anyone can report the wallet</span></p>
+      <p><b>2%</b><span>goes to the reporter, max 100,000 $STANDARD</span></p>
+      <p><b>70 / 30</b><span>the silent wallet pays 70% and gets 30% back</span></p>
+      <p><b>BURN</b><span>the charter burns</span></p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap">
+  <div class="foot">
+    <a class="madeby" href="https://x.com/flxrnc" target="_blank" rel="noopener">Built by @flxrnc</a>
+    <div class="strong">Unofficial page. Not affiliated with Standard Reserve or 0xbeans. This site was not built by the protocol team.</div>
+    This page does not connect a wallet. It never asks for a seed phrase, a signature or a whitelist form.<br>
+    STANDARD is an experimental onchain protocol. It is not a bank, holds no deposits, offers no accounts, and is not a regulated financial institution of any kind. This page is unofficial and not financial advice.<br>
+    Built from public posts and whitepaper v0.1. If a number is missing, it is missing.
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
